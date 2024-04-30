@@ -2,6 +2,8 @@
 
 Aplicación base de laravel 10 en php 8.2, para sólo preocuparte de usar el framework Laravel.
 
+Se ha usado como base el repositorio de [refactorian](https://github.com/refactorian) / [laravel-docker](https://github.com/refactorian/laravel-docker)
+
 # Laravel Docker Starter Kit
 - Laravel v11.x
 - PHP v8.3.x
