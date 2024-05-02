@@ -39,9 +39,9 @@ Se ha usado como base el repositorio de [refactorian](https://github.com/refacto
 
 #### Consideraciones especiales una vez descargado el docker:
 - Si el comando `composer setup` no responde o no es reconocido se debe saltar la ejecución del comando.
-- Si la carpeta vendor no aparece (debido a que el archivo .gitignore no la sube) se debe ejecutar el comando `composer install`.
-- Si la carpeta node_modules no aparece (debido a que el archivo .gitignore no la sube) se debe ejecutar el comando `npm install`.
-- Algunas veces es recomendable una vez ejecutada la línea anterior ejecutar el comando `composer update` para actualizar algunas librerías.
+- Si la carpeta **vendor** no aparece (debido a que el archivo .gitignore no la sube) se debe ejecutar el comando `composer install`.
+- Si la carpeta **node_modules** no aparece (debido a que el archivo .gitignore no la sube) se debe ejecutar el comando `npm install`.
+- Algunas veces es recomendable una vez ejecutada la línea **composer install** ejecutar el comando `composer update` para actualizar algunas librerías.
 - Algunas veces ocurre también que se deben generar las claves de la aplicación, para ello se debe usar el siguiente comando: `php artisan key:generate`.
 - Con todos estos pasos la aplicación estará corriendo de nuevo.
 
